@@ -5,4 +5,4 @@
 * [Vivaldi recipe](https://github.com/AppImage/AppImages/blob/master/recipes/Vivaldi.yml)
 
 ## Build
-`bash -ex ./pkg2appimage Firefox.yml`
+`bash -ex ./pkg2appimage Vivaldi.yml`
