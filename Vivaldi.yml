@@ -13,4 +13,4 @@ script:
   - sed -i -e 's|/usr/bin||g' vivaldi-stable.desktop
   - ( cd usr/bin ; rm vivaldi-stable ; ln -s vivaldi vivaldi-stable )
   - mv -f opt/vivaldi/* usr/bin/ && rm -r opt/
-- cp usr/bin/resources/vivaldi/resources/icon_128.png vivaldi.png
+  - cp usr/bin/resources/vivaldi/resources/icon_128.png vivaldi.png
